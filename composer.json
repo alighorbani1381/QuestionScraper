@@ -1,0 +1,15 @@
+{
+    "require": {
+        "sunra/php-simple-html-dom-parser": "^1.5",
+        "voku/arrayy": "^7.8"
+    },
+    "autoload": {
+        "classmap": [
+            "vendor/php-tools/vardumper/src"
+        ],
+        "psr-4": {
+            "Src\\": "src/",
+            "App\\": "app/"
+        }
+    }
+}
